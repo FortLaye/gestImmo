@@ -1,0 +1,14 @@
+ul{
+    list-style-type: none;
+}
+.navbar{
+    background-color: rgba(189, 51, 0, 0.907);
+}
+.navbar,
+.nav-link,
+.navbar-brand{
+    color: #FFF;
+}
+.nav-link:hover{
+    border-bottom: 1px solid #fff;
+}
