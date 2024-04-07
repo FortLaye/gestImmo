@@ -1,0 +1,15 @@
+.card{
+    background-color: rgba(96, 209, 232, 0.12);
+    border-color: rgba(96, 209, 232, 0.12) !important;
+}
+/* Personnalisation de la couleur de la poignée */
+.form-range::-webkit-slider-thumb {
+    background-color: #0dcaf0; /* Couleur bleue par défaut de Bootstrap */
+  }
+  
+  /* Personnalisation de la couleur de la piste */
+  .form-range::-webkit-slider-runnable-track {
+    background-color: #fff; /* Couleur de fond par défaut de Bootstrap */
+  }
+  
+ 

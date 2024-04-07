@@ -23,9 +23,14 @@
 }
 .baniere h1{
     color: #fff;
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.4rem;
+    font-weight: 400;
     text-align: center;
-    width: 30%;
-    margin: 0;
+    width: 25%;
+}
+@media (max-width: 768px) {
+    .baniere h1{
+        font-size: 1.8rem;
+        width: 80%;
+    }
 }

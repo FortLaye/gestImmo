@@ -1,0 +1,31 @@
+{
+    "biens": [
+        {
+            "id": 1,
+            "nom": "Maison à Vendre",
+            "description": "Maison située à Médina, R+2 , 2 appartements par étage ",
+            "prix": 18000000,
+            "adresse": "Médina, Rue 10, villa n° 123",
+            "status": "Disponible",
+            "image": "https://www.mali-location.com/images/listing_photos/thumb_2130_whatsappimage20190227at11.48.27.jpeg"
+        },
+        {
+            "id": 2,
+            "nom": "Appartement à louer",
+            "description": "Située à Hann Maristes 2 pré de la grande Mosquée, 2 chambres , 1 Sallon et des toilettes externes",
+            "prix": 200000,
+            "adresse": "Médina, Rue 10, villa n° 123",
+            "status": "Disponible",
+            "image": "https://img.leboncoin.fr/api/v1/lbcpb1/images/83/63/2a/83632ab82e3c372d2b968c3e481b93a5f7dea387.jpg?rule=classified-760x460-webp"
+        },
+        {
+            "id": 3,
+            "nom": "Maison à Vendre",
+            "description": "Maison située à Médina, R+2 , 2 appartements par étage ",
+            "prix": 2000000,
+            "adresse": "Médina, Rue 10, villa n° 123",
+            "status": "Disponible",
+            "image": "https://media.bazarafrique.com/upload/post/6231ccf32e656123472225.png"
+        }
+    ]
+}

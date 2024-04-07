@@ -1,0 +1,7 @@
+<div class="header d-flex justify-content-between">
+    <h5 class="text-secondary">Nos biens immobiliers</h5>
+    <span>Les plus récents</span>
+</div>
+<div class="list">
+    <app-bien-card *ngFor="let bien of biens" [bien]="bien" />
+</div>

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CarouselBanerComponent } from './carousel-baner.component';
+import { BienCardComponent } from './bien-card.component';
 
-describe('CarouselBanerComponent', () => {
-  let component: CarouselBanerComponent;
-  let fixture: ComponentFixture<CarouselBanerComponent>;
+describe('BienCardComponent', () => {
+  let component: BienCardComponent;
+  let fixture: ComponentFixture<BienCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [CarouselBanerComponent]
+      declarations: [BienCardComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(CarouselBanerComponent);
+    fixture = TestBed.createComponent(BienCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

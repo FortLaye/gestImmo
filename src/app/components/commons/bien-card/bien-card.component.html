@@ -1,0 +1,26 @@
+<div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4 card-image">
+        <img src="{{bien.image}}" class="img-fluid rounded-start" alt="img">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body pl-5">
+          <h5 class="card-title">{{bien.nom}}</h5>
+            <ul>
+                <li *ngFor="let item of displayedDescription(bien.description)" >
+                    {{item}}
+                </li>
+            </ul>
+            <p class="card-text pl-5 fs-5 fw-medium text-success">{{bien.prix}} Fcfa</p>
+        <div class="card-text">
+        </div>
+        <p class="card-text d-flex w-100 justify-content-between">
+            <small class="text-body-secondary"> Publié le {{ date | date: 'dd-MM-yyy' }} </small>
+            <button class="btn btn-lg btn-info" >
+                <a routerLink="/biens/{{bien.id}}" class="text-light" > Voir plus de détails ...</a>
+            </button>
+        </p>
+        </div>
+      </div>
+    </div>
+</div>

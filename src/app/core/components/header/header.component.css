@@ -1,14 +1,17 @@
 ul{
     list-style-type: none;
 }
-.navbar{
-    background-color: rgba(189, 51, 0, 0.907);
+.container-lg{
+    padding: 0 !important;
+    gap: 0 !important;
 }
 .navbar,
-.nav-link,
-.navbar-brand{
+.nav-link{
     color: #FFF;
 }
-.nav-link:hover{
-    border-bottom: 1px solid #fff;
+.navbar-brand{
+    color: #07cbf2;
+    background-color: #FFF;
+    padding: 0.2rem 1rem;
+    border-radius: 50px;
 }

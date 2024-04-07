@@ -17,13 +17,13 @@ export class HomeComponent implements OnInit {
   biens: any = [];
 
   ngOnInit(): void {
-    this.http.get(`${this.apiUrl}/bien/`).subscribe(((response: any) => {
-       this.biens = response;
-    }))
+    // this.http.get(`${this.apiUrl}/bien/`).subscribe(((response: any) => {
+    //    this.biens = response;
+    // }))
 
-    this.http.get(`${this.apiUrl}/images`).subscribe(((response: any) => {
-      this.bynaryImage = response[0]?.imageData;
-    }))
+    // this.http.get(`${this.apiUrl}/images`).subscribe(((response: any) => {
+    //   this.bynaryImage = response[0]?.imageData;
+    // }))
   }
 
 

@@ -1,0 +1,25 @@
+<div class="main">
+    <h5 class="text-secondary">Filtrer par</h5>
+    <div class="card">
+        <div class="card-body">
+            <div class="price mb-4">
+                <label for="customRange1" class="form-label fw-medium">Prix en CFA</label>
+                <input 
+                    type="range"
+                    class="form-range text-info"
+                    id="customRange1"
+                    [(ngModel)]="rangeValue" 
+                    (change)="onChangeRange($event)"
+                >
+                <input
+                    type="text"
+                    readonly
+                    value={{displayedRange}}
+                    class="form-control text-center fw-bold fs-5 text-secondary"
+                >
+            </div>
+            <app-category-filter/>
+            <app-type-filter/>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+.card{
+    z-index: 10;
+    top: -45px;
+}
+.btn{
+    width: 150px;
+}
+.search-btn{
+    width: 80px;
+}
+.btn-date{
+    width: 16%;
+}
+.btn-date input,
+.search-input input{
+    font-size: 1rem !important;
+}
+.search-input{
+    width: 30%;
+}
