@@ -1,7 +1,7 @@
 <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4 card-image">
-        <img src="{{bien.image}}" class="img-fluid rounded-start" alt="img">
+        <img [src]="'data:image/png;base64,'+ bien.imagesBien[0].imageData" class="img-fluid rounded-start" alt="img">
       </div>
       <div class="col-md-8">
         <div class="card-body pl-5">

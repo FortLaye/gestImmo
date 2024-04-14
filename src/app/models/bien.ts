@@ -1,3 +1,9 @@
+export interface Image{
+  id?: number;
+  name?: string;
+  imageData?: string;
+}
+
 export interface Bien {
     id?: number;
     nom: string;
@@ -5,5 +11,6 @@ export interface Bien {
     prix: number;
     address: string;
     status: string;
-    image: string;
+    imagesBien: Image[];
 }
+

@@ -1,7 +1,9 @@
 <div class="container-lg pt-5">
     <div class="row mt-5">
-        <div class="col-lg-6">
-            <img src="{{bien.image}}" alt="img">
+        <div class="col-lg-6 container-img">
+            <div class="border border-info p-2" *ngIf="bien.imagesBien">
+              <img [src]="'data:image/png;base64,'+ bien.imagesBien[0].imageData" class="img-fluid w-100" alt="img">
+            </div>
         </div>
         <div class="col-lg-6">
 
